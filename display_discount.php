@@ -16,7 +16,6 @@
 					    "$".number_format($discount_price,
 					    2);
 					        ?>
-
 						<!DOCTYPE html>
 						<html>
 						<head>
@@ -29,20 +28,22 @@
 						<body>
 						<main>
 
+
 						<label>Product
 						Description:</label>
 						<span><?php echo
-						$product_description;
+						htmlspecialchars($product_description);
 						?></span><br>
 
 						<label>List Price:</label>
-						<span><?php echo $list_price;
+						<span><?php echo
+						htmlspecialchars($list_price_f);
 						?></span><br>
 
 						<label>Standard
 						Discount:</label>
 						<span><?php echo
-						$discount_percent;
+						htmlspecialchars($discount_percent_f);
 						?></span><br>
 
 						<label>Discount Amount:</label>
