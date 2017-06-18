@@ -27,6 +27,8 @@
 						</head>
 						<body>
 						<main>
+						<h1>Product Discount
+						Calculator</h1>
 
 
 						<label>Product
